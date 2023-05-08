@@ -1,0 +1,48 @@
+body,
+div,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.explanation {
+  margin-bottom: 20px;
+}
+
+.box {
+  border: 3px solid rgb(255, 162, 162);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 0 20px 0;
+}
+
+.btn-user {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  font-size: 20px;
+}
+
+.result {
+  padding-top: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.user-select,
+.com-select,
+.game-result {
+  font-size: 30px;
+}
